@@ -1,0 +1,22 @@
+[package]
+name = "PredictivePilot"
+version = "0.1.0"
+edition = "2024"
+authors = [
+    "Sohum Sharma <sohums3@illinois.edu>", 
+    "Daniel Philipov <dp33@illinois.edu>", 
+    "Alexandra Levinsheyn <al68@illinois.edu>", 
+    "Akshay Vellore <akshayv4@illinois.edu>"
+]
+
+rust-version = "1.76.0"
+
+
+description = "An Applet to assist with choosing the best model for a given dataset"
+readme = "README.md"
+
+repository = "https://github.com/sohumsharma484/PredictivePilot"
+publish = false
+
+[dependencies]
+

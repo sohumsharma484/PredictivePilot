@@ -1,0 +1,9 @@
+# Rust post-build files
+/target
+
+# IDE Configuration files
+.idea/
+.vscode/
+
+# MacOS files
+.DS_Store
