@@ -1,5 +1,6 @@
 # Rust post-build files
 /target
+Cargo.lock
 
 # IDE Configuration files
 .idea/
@@ -7,3 +8,4 @@
 
 # MacOS files
 .DS_Store
+

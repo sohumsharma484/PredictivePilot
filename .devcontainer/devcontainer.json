@@ -1,0 +1,22 @@
+{
+    "name": "PredictivePilot",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "serayuzgur.crates",
+                "ms-azuretools.vscode-docker",
+                "tamasfe.even-better-toml",
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "ms-python.debugpy",
+                "rust-lang.rust-analyzer",
+                "cweijan.vscode-mysql-client2",
+                "Oracle.mysql-shell-for-vs-code",
+                "jinxdash.prettier-rust"
+            ]
+        }
+    },
+}
