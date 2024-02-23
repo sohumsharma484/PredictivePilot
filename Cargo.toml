@@ -1,7 +1,7 @@
 [package]
 name = "PredictivePilot"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 authors = [
     "Sohum Sharma <sohums3@illinois.edu>", 
     "Daniel Philipov <dp33@illinois.edu>", 
@@ -11,8 +11,7 @@ authors = [
 
 rust-version = "1.76.0"
 
-
-description = "An Applet to assist with choosing the best model for a given dataset"
+description = "An Applet to assist with choosing the best model for a given dataset."
 readme = "README.md"
 
 repository = "https://github.com/sohumsharma484/PredictivePilot"
