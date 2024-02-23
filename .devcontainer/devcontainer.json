@@ -1,0 +1,6 @@
+{
+    "name": "PredictivePilot",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+}
