@@ -2,6 +2,9 @@
     "name": "PredictivePilot",
     "build": {
         "dockerfile": "Dockerfile",
+        "args": {
+            "architecture": "amd64"
+        }
     },
     "customizations": {
         "vscode": {

@@ -10,6 +10,7 @@ SHELL ["/bin/bash", "-c"]
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y git curl make
+RUN apt-get install -y tar zip
 
 ######################################################
 #               Install Rust and Cargo               #
@@ -23,7 +24,7 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 ######################################################
 
 RUN apt-get install -y python3.10 python3-pip 
-RUN echo "alias python=python3" >> ~/.bashrc
+RUN cp /usr/bin/python3 /usr/bin/python
 RUN pip3 install --upgrade pip
 
 COPY requirements.txt /tmp/requirements.txt

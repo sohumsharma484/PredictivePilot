@@ -7,4 +7,3 @@ scikit-learn == 1.4.0
 
 # Alexandra's dependencies
 pandas == 2.2.0
-mysql-connector-python == 8.3.0
