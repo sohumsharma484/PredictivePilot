@@ -16,8 +16,6 @@
                 "ms-python.python",
                 "ms-python.debugpy",
                 "rust-lang.rust-analyzer",
-                "cweijan.vscode-mysql-client2",
-                "Oracle.mysql-shell-for-vs-code",
                 "jinxdash.prettier-rust"
             ]
         }
