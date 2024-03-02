@@ -23,13 +23,18 @@ path = "src/main.rs"
 
 [dependencies]
 # Web Framework Dependencies
-actix-web = "4.5.1"
+actix-multipart = "0.6"
+actix-web = "4.4"
+env_logger = "0.11"
+futures-util = { version = "0.3.17", default-features = false, features = ["std"] }
+log = "0.4"
+sanitize-filename = "0.5"
+uuid = { version = "1", features = ["v4"] }
 async-trait = "0.1.77"
 bytes = "1.5.0"
 derive_more = "0.99.17"
 json = "0.12.4"
 serde = "1.0.197"
-uuid = "1.7.0"
 validator = "0.16.1"
 
 [lib]
