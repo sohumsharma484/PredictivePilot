@@ -25,7 +25,7 @@ def test_is_float():
 def test_determine_value_datatype():
     assert dd.determine_value_datatype("True") == "bool" 
     assert dd.determine_value_datatype("toxic") == "str" 
-    assert dd.determine_value_datatype("-57") == "int"
+    assert dd.determine_value_datatype("-56") == "int"
     assert dd.determine_value_datatype("79.3") == "float" 
 
 def test_determine_column_datatype():
